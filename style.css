@@ -11,7 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://source.unsplash.com/1600x900/");
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -71,7 +71,7 @@ body{
 }
 .humidity{
     color: rgb(214, 242, 236,70%);
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .city{

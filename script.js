@@ -19,6 +19,7 @@ function date_in_screen(date){
     document.querySelector(".text-temp").innerHTML = date.weather[0].description;
     document.querySelector(".humidity").innerHTML = "Umidade: "+date.main.humidity+"%";
     document.querySelector(".img-temp").style = "width: 40px;";
+    document.querySelector(".humidity").style = "margin-top: 20px;";
     document.querySelector(".img-temp").src = `https://openweathermap.org/img/wn/${date.weather[0].icon}.png`;
 }
 
